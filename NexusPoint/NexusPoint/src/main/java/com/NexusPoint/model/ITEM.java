@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class ITEM {
     private String itemID;
     private String itemName;
-    private String itemAmount;
+    private int itemAmount;
     private int cost;
     private LocalDate purchaseDate;
     private Boolean itemType;
@@ -28,11 +28,11 @@ public class ITEM {
         this.itemName = itemName;
     }
 
-    public String getItemAmount() {
+    public int getItemAmount() {
         return this.itemAmount;
     }
 
-    public void setItemAmount(String itemAmount) {
+    public void setItemAmount(int itemAmount) {
         this.itemAmount = itemAmount;
     }
 
